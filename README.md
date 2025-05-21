@@ -2,16 +2,21 @@
 An open-source project built on Python for monitoring server status and processes running on it
 
 ## Installation
-You can install `jagday` using pip:
+Install from source for local
 ```bash
-pip install jagday
+git clone git@github.com:erinshek/jagday.git
+cd jagday
+pip install .
 ```
-(If publishing to PyPI, otherwise: `pip install .` for local install from source)
 
 ## Usage
 Once installed, you can view running processes by typing:
 ```bash
 jps
+```
+or
+```
+jps > processes.txt
 ```
 
 ## Output
